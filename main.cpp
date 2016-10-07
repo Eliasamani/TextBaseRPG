@@ -4,6 +4,21 @@
 #include <windows.h>
 
 using namespace std;
+	int whatClass;
+	cout << "What class do you want to play?" << endl << "Press 1 for [Hunter]" << endl << "Press 2 for [Mage]" << endl << "Press 3 for [Hunter]" << endl;
+	cin >> whatClass;
+	switch (whatClass){
+	case 1:
+		cout << "You are now a Hunter!" << endl;
+		break;
+	case 2:
+		cout << "You are now a Mage!" << endl;
+		break;
+	case 3:
+		cout << "You are now a Warrior!" << endl;
+		break;
+	}
+	
 string cName;
 struct items
 {
